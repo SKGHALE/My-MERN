@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Star Patterns</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h2>Pattern 1:</h2>
+    <script>
+        const rows = parseInt(prompt("Enter the number of rows for Pattern 1:"));
+        let pattern = '';
+
+        // Upper half
+        for (let i = 1; i <= rows; i++) {
+            pattern += ' '.repeat(rows - i) + '*'.repeat(2 * i - 1) + '<br>';
+        }
+
+        // Lower half
+        for (let i = rows - 1; i >= 1; i--) {
+            pattern += ' '.repeat(rows - i) + '*'.repeat(2 * i - 1) + '<br>';
+        }
+
+        document.write(pattern);
+    </script>
+</body>
+</html>

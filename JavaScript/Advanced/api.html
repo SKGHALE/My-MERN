@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const requestUrl='https://github.com/SKGHALE'
+    const xhr=new XMLHttpRequest();
+     xhr.open('GET',requestUrl) 
+     xhr.onreadystatechange = function(){
+        console.log(xhr.readyState) ;
+     }
+     xhr.send()          
+</script>
+</html>

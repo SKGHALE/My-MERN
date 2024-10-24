@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        //'use strict';
+
+        function print(length) {
+            for (var lineLength = 1; lineLength<= length; lineLength++) {
+                var space = ""
+                for (var spaceLength = 1; spaceLength<= length-lineLength; spaceLength++) {
+                    space = space+" "
+                }
+                var star = ""
+                for (var starLength = 1; starLength<=lineLength; starLength++) {
+                    star = star + "*"
+                }
+                console.log(space+star);
+            }
+            
+        }
+            
+        function start() {
+            var length = parseInt(document.getElementById("length").value);
+
+            print(length);
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        <input id="length" placeholder="Length" type="text">
+        <button value="Print" onclick="javascript: start()">Print</button>
+    </div>
+</body>
+
+</html>

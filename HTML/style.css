@@ -1,0 +1,22 @@
+/* HSL=hue,staturation, lightness */
+
+
+
+/* #first{
+    background-color: aquamarine;
+
+}
+
+.second{
+    background-color: blue;
+} */
+
+.red{
+    background-color: black;
+    color: aliceblue;
+    height: 50;
+}
+
+.blue{
+    background-color: violet;
+}

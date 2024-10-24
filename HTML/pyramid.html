@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function print(length) {
+
+            for (var i = 1; i <= length; i++) {
+                var star = ""
+                for (var j = 1; j <= i; j++) {
+
+                    star = star + "*"
+
+                }
+                console.log(star);    // CONSOLE LOG SOBSOMAI NOTUN LINE PRINT KORA
+            }
+        }
+
+        function print(length) {
+            for (var linNu = 1; linNu <= length; linNu++) {
+                var stars = "";
+                for (var noOfStar = 0; noOfStar <= length - linNu; noOfStar++) {
+                    stars += "*";    //ata concatenation hocha 
+                }
+                console.log(stars);
+            }
+
+
+            for (var linNu = length; linNu >= 0; linNu--) {
+                var stars = "";
+                for (var noOfStar = 1; noOfStar <= linNu; noOfStar++) {
+                    stars += "*";
+                }
+                console.log(stars);
+            }
+        }
+
+
+        function start() {
+            var length = parseInt(document.getElementById("length").value);
+
+            print(length);
+        }
+    </script>
+
+
+</head>
+
+<body>
+    <div>
+        <input id="length" placeholder="Length" type="text">
+        <button value="Print" onclick="javascript: start()">Print</button>
+    </div>
+</body>
+
+</html>
