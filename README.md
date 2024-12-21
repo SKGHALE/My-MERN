@@ -1,2 +1,2 @@
-This is my learning series, If you guys want that you can take it no issue ,beacause here every content is from youtube. I learning from various youtube channel like chai aur code @hitesh , CodeWithHarry, CodeHelp by babbar. So you guys take here or there also. Here some content is mine practices and my probleams.
+This is my learning series, If you guys want that you can take it ,beacause here every content is from youtube. I learning from various youtube channel like chai aur code @hitesh , CodeWithHarry, CodeHelp by babbar. So you guys take here or there also. Here some content is mine practices and my probleams.
 I push more git repo, upcoming my own projects. ..............................Stay Tuned....... 
